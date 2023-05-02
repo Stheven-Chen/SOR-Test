@@ -1,0 +1,75 @@
+/* CSS untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  /* CSS untuk nav */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* CSS untuk main container */
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+  
+  /* CSS untuk div contoh */
+  #contoh {
+    margin-bottom: 32px;
+  }
+  
+  #contoh p {
+    margin-bottom: 16px;
+  }
+  
+  #contoh ul {
+    list-style-type: disc;
+    margin-left: 32px;
+  }
+  
+  #contoh img {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+  }
+  
+  /* CSS untuk input file */
+  .input {
+    margin-top: 32px;
+  }
+  
+  .input-file-label {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .input-file-label:hover {
+    background-color: #555;
+  }
+  
+  .input-file {
+    display: none;
+  }
+  
+  /* CSS untuk link */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

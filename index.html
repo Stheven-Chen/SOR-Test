@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tes SOR</title>
+  </head>
+  <body>
+    <nav>Contoh SOR</nav>
+    <div class="main">
+      <div id="contoh">
+        <p>Pastikan File Yang diinput memiliki format yang sama dengan gambar dibawah</p>
+        <br />
+        <p>untuk Wilayah dapat diisi sebagai berikut:</p>
+        <br />
+        <ul>
+          <li>Jakarta</li>
+          <li>Banten</li>
+          <li>Jawa Barat</li>
+          <li>Lainnya</li>
+          <li>No EQVET</li>
+        </ul>
+        <img src="contoh.png" alt="contoh" />
+      </div>
+      <div class="input">
+        <label for="file" class="input-file-label">File XLSX:</label>
+        <div>&nbsp;</div>
+        <input type="file" name="file" id="file" class="input-file" accept=".xlsx" />
+      </div>
+    </div>
+
+    <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
